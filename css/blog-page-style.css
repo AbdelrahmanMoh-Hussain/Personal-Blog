@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playwrite+CU:wght@100..400&display=swap");
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+a:visited {
+  color: black;
+}
+a i {
+  margin-right: 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Chakra Petch", system-ui;
+  width: fit-content;
+  margin: 15px auto 5px auto;
+  font-size: 6vw;
+}
+hr {
+  width: 75%;
+  margin-top: 0;
+  background-color: #c96868;
+  height: 2px;
+}
+.sharing-icons {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.sharing-icons i {
+  cursor: pointer;
+}
+
+.blog-content img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+.blog-content h2 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: "Chakra Petch", system-ui;
+  margin: 5px;
+  margin-bottom: 0;
+}
+.author-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -4px -5px 6px -6px rgba(77, 75, 77, 0.69);
+  padding: 10px;
+  width: 70%;
+  margin: 25px auto;
+}
+
+.author-content img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: -4px 13px 6px -6px rgba(77, 75, 77, 0.69);
+}
+.author-content .author-info {
+  margin: 8px;
+}
+.author-content .author-bio {
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
