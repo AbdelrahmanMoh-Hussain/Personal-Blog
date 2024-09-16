@@ -7,6 +7,7 @@ a {
   font-size: 1.2rem;
 }
 a:visited {
+  text-decoration: none;
   color: black;
 }
 a i {
