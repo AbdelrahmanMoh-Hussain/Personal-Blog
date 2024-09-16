@@ -76,13 +76,14 @@ header nav {
   height: 200px;
   width: 400px;
 }
-.blog q {
+.blog figcaption {
   font-family: "Playwrite CU", cursive;
   font-style: italic;
   font-weight: light;
   font-size: 0.8rem;
   text-decoration: underline;
   color: #6e6e6e;
+  text-align: center;
 }
 .blog h3 {
   font-size: 2rem;
